@@ -18,9 +18,7 @@ Search phone number or UPI ID
 Displays:
 
 SAFE (no fraud report found)
-
 FRAUD (reported before)
-
 Count of how many times reported
 
 📝 Fraud Reporting
@@ -28,21 +26,15 @@ Count of how many times reported
 Users can report fraud with:
 
 Name
-
 Phone number
-
 UPI ID
-
 Description
 
 🧑‍💼 Admin Panel
 
 View all fraud reports
-
 Verify reports
-
 Delete fraud entries
-
 View analytics (total reports, categories, daily stats)
 
 📊 Dashboard
@@ -50,57 +42,26 @@ View analytics (total reports, categories, daily stats)
 Shows:
 
 Total Reports
-
 Verified Reports
-
 Pending Reports
-
 Safe vs Fraud results
 
 🛠️ Tech Stack
 Frontend
 
 React.js
-
 React Router
-
 Simple CSS
-
 Context API (Token Handling)
 
 Backend
 
 Node.js
-
 Express.js
-
 MongoDB + Mongoose
-
 JWT Authentication
-
 Role-based access middleware
 
-📂 Project Folder Structure
-FraudGuard/
-│
-├── client/            # React frontend
-│   ├── src/
-│   │   ├── components/
-│   │   ├── pages/
-│   │   ├── api/
-│   │   ├── App.js
-│   │   └── index.js
-│   └── package.json
-│
-├── server/            # Node backend
-│   ├── controllers/
-│   ├── models/
-│   ├── middlewares/
-│   ├── routes/
-│   ├── server.js
-│   └── package.json
-│
-└── README.md
 
 🖥️ Backend Setup (Node + Express)
 Install Dependencies
@@ -121,8 +82,6 @@ Install Dependencies
 cd client
 npm run dev
 
-Create .env File
-REACT_APP_API_URL=http://localhost:5000/api
 
 Run Frontend
 npm start
