@@ -20,7 +20,7 @@ connectDB();
 // Middleware
 app.use(
   cors({
-    origin: https://financial-fraud-detection-one.vercel.app, 
+    origin: "https://financial-fraud-detection-one.vercel.app", 
     methods: ["GET", "POST", "PUT", "DELETE"],
     credentials: true,
   })
