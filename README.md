@@ -64,8 +64,6 @@ React.js
 
 React Router
 
-Axios
-
 Simple CSS
 
 Context API (Token Handling)
@@ -104,15 +102,10 @@ FraudGuard/
 │
 └── README.md
 
-⚙️ Installation & Setup
-1️⃣ Clone the Repo
-git clone https://github.com/your-username/fraudguard.git
-cd fraudguard
-
 🖥️ Backend Setup (Node + Express)
 Install Dependencies
 cd server
-npm install
+npm run dev
 
 Create .env File
 MONGO_URI=your_mongodb_connection
@@ -120,16 +113,13 @@ JWT_SECRET=your_secret_key
 PORT=5000
 
 Run Backend
-npm start
+npm run dev
 
-
-Server runs at:
-👉 http://localhost:5000
 
 🌐 Frontend Setup (React)
 Install Dependencies
 cd client
-npm install
+npm run dev
 
 Create .env File
 REACT_APP_API_URL=http://localhost:5000/api
